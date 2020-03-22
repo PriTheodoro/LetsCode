@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: radial-gradient(circle, rgba(83,96,108,1) 0%, rgba(171,184,175,1) 100%);
+}
+
+.heroText {
+    text-align: center;
+    color: aliceblue;
+    font-size: 40px;
+    width: 1800px;
+    height: 140px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.heroImage {
+    background-image: url(../src/img/Shuri.jpg);
+    background-position: center;
+    background-size: contain;
+}
+.main {
+    height: 100%;
+    margin: 10px;
+    
+}
+.imageAndText {
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+#imageDescription {
+    margin: 15px;
+}
+
+#textDescription {
+    width: 410px;
+    margin: 15px;
+    text-align: justify;
+}
+
+table {
+    border: 2px solid black;
+    margin: 10px;
+    margin-top: 30px; 
+    margin-left: 15%;
+    width: 900px;
+}
+
+th, td {
+    border: 1px solid black;
+    margin: 2px;
+    text-align: center;
+}
+
