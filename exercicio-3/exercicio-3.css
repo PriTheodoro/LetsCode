@@ -7,21 +7,41 @@ body {
     background: radial-gradient(circle, rgba(83,96,108,1) 0%, rgba(171,184,175,1) 100%);
 }
 
-.heroText {
-    text-align: center;
-    color: aliceblue;
-    font-size: 40px;
-    width: 1800px;
-    height: 140px;
-    vertical-align: middle;
-    display: table-cell;
-}
-
-.heroImage {
-    background-image: url(../src/img/Shuri.jpg);
+nav {
+    background-color: #191C22;
     background-position: center;
     background-size: contain;
 }
+
+.navBox {
+    color: aliceblue;
+    height: 140px;
+}
+
+.navTitle{
+    font-size: 30px;
+    text-align: start;
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+a {
+    text-decoration: none;
+    border: 1px solid #8da4c9;
+    border-radius: 5px;
+    color: aliceblue;
+    margin: 5px;
+    padding: 5px;
+    
+}
+
+.navLink {
+    font-size: 20px;
+    text-align: end;
+    margin-top:40px;
+    margin-right: 10px;
+}
+
 .main {
     height: 100%;
     margin: 10px;
